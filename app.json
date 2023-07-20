@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "Aljabar Linier Matrix 3x3",
-    "slug": "Aljabar Linier Matrix 3x3",
+    "slug": "Aljabar-Linier-Matrix-3x3",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "aljabar-linier-matrix-app",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -23,15 +23,14 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.gamflaz.myapp"
+      "package": "com.gamflaz.AljabarLinierMatrix3x3"
     },
     "web": {
-      "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "6af61a62-df74-4ee0-8c50-ee0f1693e1b3"
+        "projectId": "52ce6221-63c8-4d0d-9b73-9d72b6eef47e"
       }
     }
   }
