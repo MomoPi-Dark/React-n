@@ -23,14 +23,14 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.gamflaz.AljabarLinierMatrix3x3"
+      "package": "com.gmcg.AljabarLinierMatrix3x3"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "52ce6221-63c8-4d0d-9b73-9d72b6eef47e"
+        "projectId": "6d5a0eda-0cc5-4a1a-9c4e-75ebecea6b65"
       }
     }
   }
