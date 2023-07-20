@@ -2,7 +2,8 @@ import Entypo from "@expo/vector-icons/Entypo";
 import * as Font from "expo-font";
 import * as SplashScreen from "expo-splash-screen";
 import React, { useCallback, useEffect, useState } from "react";
-import { Text, View } from "react-native";
+import { StyleSheet } from "react-native";
+import { Text, View } from "../components/Themed";
 
 // Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
@@ -48,8 +49,15 @@ export default function AppOp() {
     <View
       style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
       onLayout={onLayoutRootView}>
-      <Text>Haloo welcome to perhitungan matrix 3x3👋</Text>
-      <Entypo name="rocket" size={30} />
+      <Text style={styles.separator}>
+        App Error {<Entypo name="box" size={30} />}
+      </Text>
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  separator: {
+    fontSize: 30,
+  },
+});

@@ -7,8 +7,8 @@ import {
 import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
 import { useEffect } from "react";
-import { StyleSheet, useColorScheme } from "react-native";
-import AppOp from "./splashscreen";
+import { useColorScheme } from "react-native";
+import AppOp from "./nodisplay";
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -54,11 +54,3 @@ function RootLayoutNav() {
     </>
   );
 }
-
-const styles = StyleSheet.create({
-  separator: {
-    marginVertical: 0,
-    height: 1,
-    width: "100%",
-  },
-});
